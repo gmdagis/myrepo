@@ -1,0 +1,65 @@
+/* Set the base font and background color for the entire page */
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: #00539f;
+}
+
+/* Style the main heading */
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Style paragraphs and list items for better readability */
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+/* Style links with different colors for visited and unvisited states */
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* Remove default list styling and style navigation items */
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+}
+
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;
+}
+
+ul.navbar a {
+  text-decoration: none;
+}
+
+/* Add a dotted line above the address element */
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
+
+/* Add padding and border to paragraphs for visual separation */
+p {
+  padding: 5px;
+  border: 1px solid black;
+}   
